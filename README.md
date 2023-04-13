@@ -187,13 +187,14 @@
 
 ### Code
 
-     let element = document.querySelectorAll("#SIvCob a");
+     let lang = document.querySelectorAll("#SIvCob a");
      let newArray = [];
-     for(let i = 0; i < arr.length; i++){
-     if(i % 2 == 0){
-         newArray.push(element[i].remove());
-        }
+     for(let i = 0; i < lang.length; i++){
+       if(i % 2 == 0){
+         newArray.push(lang[i].remove());
+       }
      };
+
 
 ### Output
 
